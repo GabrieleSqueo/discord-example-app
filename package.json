@@ -1,26 +1,16 @@
 {
-  "name": "discord-getting-started",
-  "private": true,
+  "name": "discord-example-app",
   "version": "1.0.0",
-  "description": "Discord example app",
-  "main": "app.js",
-  "type": "module",
-  "engines": {
-    "node": ">=18.x"
-  },
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "node app.js",
-    "register": "node commands.js",
-    "dev": "nodemon app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Shay DeWael",
-  "license": "MIT",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "discord-interactions": "^4.0.0",
-    "dotenv": "^16.0.3",
-    "express": "^4.18.2"
-  },
-  "devDependencies": {
-    "nodemon": "^3.0.0"
+    "discord.js": "^14.24.0",
+    "dotenv": "^17.2.3"
   }
 }
